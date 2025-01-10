@@ -20,13 +20,13 @@ const Footer = () => {
            <Link style={{textDecoration:'none'}} to={'/'}>History Page</Link>
        </div>
        <div className='d-flex flex-col'>
-            <h5>Guides</h5>
+            <h5 className='text-xl font-bold'>Guides</h5>
             <a href="https://react.dev/" style={{textDecoration:'none',color:'white'}} target='-blank'>React</a><br />
             <a href="https://react-bootstrap.netlify.app/" style={{textDecoration:'none',color:'white'}} target='-blank'>React Bootsrap</a><br />
             <a href="https://reactrouter.com/" style={{textDecoration:'none',color:'white'}} target='-blank'>React Router</a>
         </div>
         <div className='d-flex flex-column'>
-            <h5>Contacts</h5>
+            <h5 className='text-xl font-bold'>Contacts</h5>
             <div className='d-flex'>
               <input type="text" placeholder='Enter Your Email Here' className='form-control me-2'/>
               <button className='btn bg-black text-white p-2'><i className="fa-solid fa-arrow-right"></i></button>
